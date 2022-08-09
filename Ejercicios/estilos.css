@@ -1,0 +1,21 @@
+h1 {
+   color: antiquewhite;
+
+}
+
+p {
+    color: aquamarine;
+}
+
+/*TODOS LOS SELECTORES DE CLASE WARNING TIENEN ESTE COLOR */
+
+* .warning {
+    color: crimson;
+}
+
+/* PARA SELECCIONAR VARIAS ETIQUETAS */
+
+.warning, p, h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}

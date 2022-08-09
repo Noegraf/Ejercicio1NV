@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Antic+Didone&family=Inspiration&display=swap');
+
+/*Estilos para colores*/
+.colores {
+color: #4b4b4b;
+}
+
+.fondo {
+    background-color: antiquewhite;
+   /*
+   FONDO DE IMAGEN DESCE URL Y SU POSICION
+   background-image: url("");
+    background-position: left top; */
+}
+
+
+/*TAMAÑOS*/
+
+.ancho {
+    background-color: cadetblue;
+    width: 100px;
+}
+
+.alto {
+    background-color: aquamarine;
+    height: 200px;
+}
+
+.tarjeta {
+    border-style: solid;
+    border-color: #4b4b4b;
+    border-radius: 2%;
+    border-width: 1px;
+
+    /*primer valor vertical y el segundo es horizontal, si ponemos solo uno el valor se repite en los 4 lados  */
+    padding: 10px 20px;
+    margin: 10px 20px;
+}
+
+p {
+    font-family: 'Inspiration', cursive;
+ 
+    font-size: larger;
+    font-weight: lighter;
+}
+
+h1 {
+    font-family: 'Antic Didone', serif;
+    
+}
