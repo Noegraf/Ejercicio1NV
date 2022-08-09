@@ -1,0 +1,26 @@
+* {
+    /*SACAMOS LAS PROPIEDADES POR DEFECTO*/
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.galeria {
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+    flex-wrap: wrap;
+    gap:8px;
+
+}
+
+.imagen-galeria {
+   width: 300px;
+height: fit-content;
+  
+}
+
+.imagen-galeria:hover {
+    opacity: 0.3;
+    cursor: pointer;
+}
