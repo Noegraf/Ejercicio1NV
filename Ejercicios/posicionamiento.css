@@ -1,0 +1,53 @@
+div {
+    /* VIENE POR DEFECTO EL ESTATICO */
+    border: 1px solid gray;
+    padding: 5px;
+    margin: 5px;
+}
+
+.soy-relative {
+    /* POSICIONAMIENTO RELATIVO - SE POSICIONA EN RELACION
+    AL POSICIONAMIENTO ORIGINAL DE ARRIBA, EL DE LOS DIV EN GENERAL  */
+    border: 1px solid rgb(185, 148, 148);
+    position: relative;
+    left: 80px;
+
+}
+
+
+.soy-fixed {
+     /* SE POSICIONA EN RELACION A LA PANTALLA - TRABAJA POR SU CUENTA Y SE QUEDA QUIERO EN SU POSICION */
+    position: fixed;
+    bottom: 0px;
+    background-color: antiquewhite;
+}
+
+.soy-absolute {
+    /* se posiciona respecto al padre, EN ESTE CASO ES EL BODY */
+    position: absolute;
+    top: 0px;
+    background-color: beige;
+} 
+
+.soy-relative-padre {
+    border: 1px solid rgb(185, 148, 148);
+    position: relative;
+    left: 80px;
+    width: 300px;
+    height: 300px;
+}
+.soy-absolute-hijo {
+    /* se posiciona respecto al padre, EN ESTE CASO ES EL RELATIVO PADRE */
+    position: absolute;
+    top: 0px;
+    background-color: rgba(30, 143, 255, 0.548);
+    right: 0px;
+} 
+
+.soy-sticky {
+    position: sticky;
+    background-color: lightpink;
+    color: azure;
+    top: 0px;
+    z-index: 2;
+}

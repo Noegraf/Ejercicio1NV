@@ -1,0 +1,89 @@
+h1 {
+    font-size: smaller;
+}
+.flex {
+/* SI NO LE PONEMOS ALTURA ES STRECH POR DEFECTO Y SE EXPANDE AL TAMAÑO DEL CONTENEDOR */
+
+    display: flex;
+    background-color: dodgerblue;
+    height: 100px;
+}
+
+.flex-center {
+    display: flex;
+    background-color: dodgerblue;
+    height: 100px;
+    justify-content: center;
+}
+
+.flex-end {
+    display: flex;
+    background-color: dodgerblue;
+    height: 100px;
+    justify-content:end;
+}
+
+.flex-between {
+    display: flex;
+    background-color: dodgerblue;
+    height: 100px;
+    justify-content: space-between;
+}
+
+.flex-around {
+    display: flex;
+    background-color: dodgerblue;
+    height: 100px;
+    justify-content: space-around;
+}
+
+.flex-wrap {
+    display: flex;
+    background-color: dodgerblue;
+    height: 100px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.flex-centrovertical {
+    display: flex;
+    background-color: dodgerblue;
+    height: 100px;
+    justify-content: space-around;
+    /* CENTRADO EN EL EJE VERTICAL */
+    align-items: center;
+}
+
+.flex-centrohorizontal{
+    display: flex;
+     /* CENTRADO EN EL EJE HORIZONTAL */
+     flex-direction: column;
+    background-color: dodgerblue;
+    height: 100px;
+    justify-content: space-around;
+   
+    align-items: center;
+}
+
+
+.cont-1 {
+background-color: lavender;
+height: 50px;
+width: 100px;
+border: 2px solid #ebd2db;
+}
+
+.cont-2 {
+    background-color: rgb(141, 141, 223);
+    height: 50px;
+    width: 100px;
+    border: 2px solid #ebd2db;
+}
+
+.cont-3 {
+    background-color: rgb(113, 113, 232);
+    height: 50px;
+    width: 100px;
+    border: 2px solid #ebd2db;
+}
+

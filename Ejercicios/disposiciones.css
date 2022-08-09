@@ -1,0 +1,29 @@
+.div-1 {
+    /*DISPLAY POR DEFECTO BLOCK */
+background-color: aqua;
+}
+
+.span-1 {
+     /*DISPLAY POR DEFECTO INLINE */
+    background-color:coral;
+    float: left;
+}
+
+.span-2 {
+    background-color:cornflowerblue;
+    float: right;
+}
+
+.div-2 {
+    background-color:darkcyan;
+    display: inline-block;
+}
+
+.div-3 {
+    background-color:darksalmon;
+
+}
+
+/*modificar INLINE 
+float
+*/
