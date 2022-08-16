@@ -1,0 +1,77 @@
+.p-contenedor {
+    color:green;
+}
+body section.main .contenedor p {
+    color: cornflowerblue;
+}
+
+.contenedor #boton-contenedor {
+    background-color: deeppink;
+}
+
+
+
+/* PSEUDOCLASES */
+
+#boton-contenedor:hover {
+    width: 10%;
+    background-color: aliceblue;
+}
+
+.contenedor p:first-child {
+    background-color: aquamarine;
+}
+
+a:link {
+    color: crimson;
+}
+
+a:visited {
+    color: coral;
+}
+
+a:hover {
+    color: aquamarine;
+}
+
+
+/* PSEUDOELEMENTOS */
+
+.pseudoelementos {
+    width: 300px;
+    height: 100px;
+    background-color: aquamarine;
+}
+
+p.frase {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p.frase::before {
+    content: '====>';
+    font-weight: bolder;
+}
+
+p.frase::after {
+    content: '<====';
+    font-weight: bolder;
+}
+
+.frase2::first-letter {
+   color: rgb(210, 59, 147);
+   font-style: italic;
+font-size: larger;
+   
+}
+
+.frase2::selection{
+    background-color: grey;
+    color: black;
+}
+
+.listado li::marker {
+    color: darkgoldenrod;
+}
+
+
+

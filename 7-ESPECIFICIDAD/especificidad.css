@@ -1,0 +1,23 @@
+button {
+    width: 130px;
+    height: 50px;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.boton-hover::before {
+    content: "Pasa por encima";
+    
+}
+
+.boton-hover:hover {
+    color: azure;
+    background-color: rgb(21, 147, 122);
+}
+
+
+
+.boton-hover:hover::before {
+    content: "¡Hecho!";
+    
+}

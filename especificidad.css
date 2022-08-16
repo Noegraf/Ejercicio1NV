@@ -1,0 +1,47 @@
+/* ESPECIFICIDAD
+
+SE APLICA EL ULTIMO INGRESADO
+
+PERO
+
+ID PESA MAS QUE CLASE
+
+CLASE PESA MAS QUE ETIQUETA 
+
+ARRIBA SE PUEDE VER EL Selector Specificity: (0, 1, 1)
+
+*/
+
+/* Selector Specificity: (0, 0, 1) */
+h1 {
+    color: aquamarine;
+}
+
+h1 {
+    color: black;
+}
+
+p {
+    color: brown;
+}
+
+/* Selector Specificity: (1, 0, 0) */
+
+#h1-id {
+    color:darkorchid;
+}
+
+
+/*Selector Specificity: (1, 0, 1)*/
+
+h1#h1-id {
+    color: aliceblue;
+}
+
+/* Selector Specificity: (1, 1, 1) */
+
+h1#h1-id.h1-class {
+    color: dimgrey;
+}
+
+/* EVITAR EL USO DE !IMPORTANT */
