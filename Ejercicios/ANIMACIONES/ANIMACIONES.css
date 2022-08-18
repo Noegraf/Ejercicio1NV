@@ -1,0 +1,40 @@
+.padre {
+    width: 400px;
+    height: 400px;
+    background-color: black;
+}
+
+#hijo
+{
+    width: 50%;
+    height: 50%;
+    background-color: antiquewhite;
+    transition: ease-in 3s;
+}
+
+.padre:hover #hijo {
+    transform: translateX(100%);
+    background-color: cadetblue;
+}
+
+.anima {
+    display: flex;
+    background-repeat: no-repeat;
+    height: 250px;
+    background-image: url(../Formulario/img/Group\ 3-1.png);
+    
+    animation-timing-function: linear;
+animation-duration: 300ms;
+}
+
+#nombre:user-valid .pic {
+    background-image: url(../Formulario/img/Group\ 3-2.png);
+}
+
+
+.padre:hover #hijo {
+    transform: translateX(100%);
+    background-color: cadetblue;
+    animation: traslateX(0%);
+}
+
